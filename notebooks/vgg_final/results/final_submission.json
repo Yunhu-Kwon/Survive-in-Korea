@@ -1,0 +1,9 @@
+{
+  "pipeline": "Latest driver-CV final candidate",
+  "file_url": "https://www.kaggle.com/code/yunhukwon/vgg-driver-cv-submission-20261118-065014/output?select=submission.csv",
+  "rows": 79726,
+  "sha256": "f5fec6b0d0b5f959388b1c60e259fd0560b6441b8677481a02eab09fc4699e9d",
+  "public_score": null,
+  "private_score": null,
+  "submitted": false
+}

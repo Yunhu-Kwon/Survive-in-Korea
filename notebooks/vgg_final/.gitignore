@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+vgg_final_outputs/
+*.pt
+*.pth
+submission*.csv
+*.zip

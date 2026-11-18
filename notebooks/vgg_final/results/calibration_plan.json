@@ -1,0 +1,33 @@
+{
+  "crop_weights": [
+    0,
+    0.5,
+    1
+  ],
+  "face_weights": [
+    0,
+    0.5,
+    1
+  ],
+  "global_temperature_bounds": [
+    0.5,
+    3
+  ],
+  "face_temperature_bounds": [
+    0.5,
+    3
+  ],
+  "class_bias_l2": 0.01,
+  "bias_adoption_min_gain": 0.003,
+  "minimum_folds_improved": 3,
+  "maximum_fold_loss_increase": 0.03,
+  "candidate_min_gain": 0.003,
+  "driver_bootstrap_lower_bound_positive": true,
+  "seed": 20261118,
+  "bridge_min_gain": 0.003,
+  "bridge_min_drivers_improved": 4,
+  "bridge_max_fold_increase": 0.02,
+  "bridge_face_temperature_fitted": false,
+  "existing_cv_blend_weight": 0.5,
+  "note": "Core CV/calibration policy fixed before aggregate OOF results. One fixed .5 existing/CV blend added after the crop bridge check and before full CV outputs; exploratory original-holdout evaluation. No Kaggle scores used for selection."
+}

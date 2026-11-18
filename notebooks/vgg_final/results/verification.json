@@ -1,0 +1,11 @@
+{
+  "portable_calibration_replayed": true,
+  "oof_log_loss": 0.25035357321342716,
+  "oof_accuracy": 0.9179896539422048,
+  "rows": 79726,
+  "local_prediction_equivalence_atol": 1e-10,
+  "full_master_notebook_retrained_after_packaging": false,
+  "individual_gpu_training_stages_previously_executed": true,
+  "remote_csv_sha256": "f5fec6b0d0b5f959388b1c60e259fd0560b6441b8677481a02eab09fc4699e9d",
+  "remote_kaggle_url": "https://www.kaggle.com/code/yunhukwon/vgg-driver-cv-submission-20261118-065014/output?select=submission.csv"
+}

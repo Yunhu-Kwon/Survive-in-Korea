@@ -1,0 +1,65 @@
+{
+  "driver_folds": {
+    "p002": 0,
+    "p026": 0,
+    "p035": 0,
+    "p041": 0,
+    "p050": 0,
+    "p075": 0,
+    "p081": 1,
+    "p051": 1,
+    "p015": 1,
+    "p024": 1,
+    "p012": 1,
+    "p014": 2,
+    "p056": 2,
+    "p052": 2,
+    "p016": 2,
+    "p061": 2,
+    "p064": 3,
+    "p047": 3,
+    "p072": 3,
+    "p022": 3,
+    "p045": 3,
+    "p066": 4,
+    "p039": 4,
+    "p049": 4,
+    "p021": 4,
+    "p042": 4
+  },
+  "metadata_sha256": "891ca8e2bfd7a3522ac2098a1bc93825c581d07104d211c329de0b16c83ca5ee",
+  "fixed_epochs": 5,
+  "schedule_epochs": 9,
+  "fixed_variant": "EMA .995; BN refreshed on fit drivers only",
+  "face_fixed_epochs": 2,
+  "family_comparison": "full image vs fixed driver crop; same VGG16-BN GAP and optimizer",
+  "crop_fractions": [
+    0.15,
+    0,
+    0.85,
+    0.9
+  ],
+  "fixed_combination_choices": {
+    "global_crop_weights": [
+      0,
+      0.5,
+      1
+    ],
+    "face_weights": [
+      0,
+      1
+    ],
+    "calibration": [
+      "scalar_temperature",
+      "regularized_class_bias"
+    ],
+    "class_bias_l2": 0.01
+  },
+  "notes": [
+    "Each OOF image is predicted only by a model excluding its driver.",
+    "Fixed epoch configuration was informed by prior experiments on the original fold0; results remain development estimates.",
+    "Calibrator crossfit is not a full nested re-training of base models.",
+    "Test predictions are transformed only after validation-based choices; no pseudo labels or test fitting."
+  ],
+  "new_competition_submissions_authorized": 0
+}
