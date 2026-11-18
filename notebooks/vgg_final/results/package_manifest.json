@@ -11,18 +11,18 @@
   },
   {
     "path": "README.md",
-    "bytes": 2916,
-    "sha256": "a75750e46b12e3b81417e4020f51e61ce4e102273c02fa8f1d62ca1f3050c84b"
+    "bytes": 3034,
+    "sha256": "64088ccb69ac8a5d25a4f3388ec4b8c990c3dd44819550fb267d6054806737e2"
   },
   {
     "path": "RESULTS.md",
-    "bytes": 4266,
-    "sha256": "bec49dca003aac7bcf23135aed62c0ab9486cb48137cb8965a1070eb7e3d1e48"
+    "bytes": 4694,
+    "sha256": "d9b254a252a54c832e2d45037fc735d3b7da9bf778fb83bcd989f991a622a307"
   },
   {
     "path": "VGG_FINAL.ipynb",
-    "bytes": 73771,
-    "sha256": "45145f769add4b083afb57c48dacd0d4d00bd48f8880c1804c07d8b3f7b89c63"
+    "bytes": 73886,
+    "sha256": "4900c7b72a37668ea60efc2f6236f0162a1f9553a81af0b86912e4f09a488f04"
   },
   {
     "path": "calibrate_final.ipynb",
@@ -43,6 +43,11 @@
     "path": "requirements.txt",
     "bytes": 82,
     "sha256": "0707a288e6a592237e12e9ac86ffd1cab8e7dd96e1d2737eba88c5623e155616"
+  },
+  {
+    "path": "results/actual_submission_result.json",
+    "bytes": 790,
+    "sha256": "9cb1d7e36c2bac57167011e02386a6d03fcbf7de4e83ee96f9582cb413664aaa"
   },
   {
     "path": "results/calibration_plan.json",
@@ -71,13 +76,13 @@
   },
   {
     "path": "results/final_submission.json",
-    "bytes": 345,
-    "sha256": "3bd5d90234c207268e34549ce70e49bcd04553a5d52617e7ad8b3a71826da334"
+    "bytes": 611,
+    "sha256": "866766be1caff0a454264a749695d2069c82b39cc6790054db3193b87c807462"
   },
   {
     "path": "results/kaggle_score_history.csv",
-    "bytes": 565,
-    "sha256": "84e9fad71df4eaf38432d7b2a567648d57ef16919ed3401c028c7613be5fcd56"
+    "bytes": 679,
+    "sha256": "9f9fe5d1972b5e7caeb1286e195d1a07b9b1d4a6c87bc0448615ad984367af38"
   },
   {
     "path": "results/paper_ablation.csv",

@@ -1,0 +1,18 @@
+{
+  "ref": 58504904,
+  "kernel": "yunhukwon/vgg-driver-cv-submission-20261118-065014",
+  "kernel_version": 1,
+  "file": "/workspace/work/vgg_driver_cv/submission_notebook/output/submission.csv",
+  "public_score": 0.23784,
+  "private_score": 0.20226,
+  "status": "COMPLETE",
+  "submitted_at_utc": "2026-11-18T10:11:05.587000+00:00",
+  "description": "Final VGG driver CV: 5fold full-crop mean, partial face refinement, OOF calibration; no test fitting",
+  "download_url": "https://www.kaggle.com/code/yunhukwon/vgg-driver-cv-submission-20261118-065014/output?select=submission.csv",
+  "submitted_at_seoul": "2026-11-18T19:11:05.587000+09:00",
+  "improvement_vs_previous": {
+    "private_absolute": 0.01509,
+    "private_relative_pct": 6.942719116632157,
+    "public_absolute": -0.01001
+  }
+}
