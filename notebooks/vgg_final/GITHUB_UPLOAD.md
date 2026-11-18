@@ -13,7 +13,7 @@
 4. 지정 브랜치에 커밋합니다. 파일별 구조가 따로 정해져 있다면 이 폴더 안의 파일만 해당 경로로 옮기세요.
 5. 팀 규칙에 따라 기준 브랜치로 Pull Request를 만듭니다.
 
-## Git 명령으로 한 커밋만 가져오기
+## Git 명령으로 최신 폴더 가져오기
 
 ```bash
 git clone https://github.com/aiast225/DeepLearning.git
@@ -21,11 +21,14 @@ cd DeepLearning
 git fetch origin
 git switch <팀에서_정해준_VGG_브랜치>
 git fetch https://github.com/Yunhu-Kwon/Survive-in-Korea.git feat/vgg-statefarm-final-20261118
-git cherry-pick <VGG_패키지_커밋_SHA>
+git restore --source=FETCH_HEAD --worktree -- notebooks/vgg_final
+git add notebooks/vgg_final
+git commit -m "Add final VGG CV model and results"
 git push origin HEAD
 ```
 
-꺾쇠 부분은 실제 브랜치와 이 패키지의 커밋 SHA로 바꿉니다.
-이 패키지 커밋은 `notebooks/vgg_final` 추가만 포함하므로 다른 프로젝트의 HTML 파일은 가져오지 않습니다.
+꺾쇠 부분은 실제 팀 VGG 브랜치로 바꿉니다.
+이 방법은 최신 `notebooks/vgg_final` 폴더만 가져오므로 다른 프로젝트의 HTML 파일과 커밋 이력은 가져오지 않습니다.
+이미 그 폴더를 수정했다면 웹 화면에서 필요한 파일을 비교해서 옮기세요.
 정해진 팀 브랜치가 이미 있으면 새 이름을 임의로 만들 필요가 없습니다.
 초대를 받았다면 GitHub 초대 수락 및 저장소 권한도 확인하세요.
